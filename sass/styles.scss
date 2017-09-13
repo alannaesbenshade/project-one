@@ -3,6 +3,7 @@
 $color-link: #000000;
 $color-accent: #cc071e;
 $color-body: #353535;
+$body-font: Roboto, sans-serif;
 
 
 a {
@@ -11,7 +12,7 @@ a {
 }
 
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: $body-font;
     font-size:1.2em;
     margin:0px;
     padding:0px;
