@@ -109,14 +109,14 @@ h3 {
 img {
     max-width:100%;
 }
-
-input[type="submit"] {
-    font-size:0;
-    width:120px;
-    height:25px;
-    border: none;
-    display:block;
-}
+//
+// input[type="submit"] {
+//     font-size:0;
+//     width:120px;
+//     height:25px;
+//     border: none;
+//     display:block;
+// }
 
 li {
     list-style:none;
@@ -397,15 +397,6 @@ nav li {
 
     }
 
-#submit {
-    background-image: url(images/submit.jpg);
-    width:100px;
-    margin: auto;
-    background-size:100%;
-    background-repeat:no-repeat;
-    box-sizing:border-box;
-}
-
 }
 
 /* desktop layout */
@@ -552,14 +543,5 @@ nav {
       }
     }
 
-
-#submit {
-    background-image: url(images/submit.jpg);
-    width:100px;
-    margin: auto;
-    background-size:100%;
-    background-repeat:no-repeat;
-    box-sizing:border-box;
-}
 
 }

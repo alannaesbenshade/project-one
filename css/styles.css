@@ -70,13 +70,6 @@ h3 {
 img {
   max-width: 100%; }
 
-input[type="submit"] {
-  font-size: 0;
-  width: 120px;
-  height: 25px;
-  border: none;
-  display: block; }
-
 li {
   list-style: none; }
 
@@ -287,15 +280,7 @@ ul {
     .sidebar ul {
       list-style: none; }
     .sidebar li {
-      margin-bottom: 4px; }
-
-  #submit {
-    background-image: url(images/submit.jpg);
-    width: 100px;
-    margin: auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    box-sizing: border-box; } }
+      margin-bottom: 4px; } }
 /* desktop layout */
 @media screen and (min-width: 1200px) {
   .detail {
@@ -405,14 +390,6 @@ ul {
       list-style: none; }
     .sidebar li {
       width: 218px;
-      margin-top: 10px; }
-
-  #submit {
-    background-image: url(images/submit.jpg);
-    width: 100px;
-    margin: auto;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    box-sizing: border-box; } }
+      margin-top: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */
