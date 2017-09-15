@@ -1,15 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700');
 
-$color-link: #000000;
+/*variables*/
 $color-accent: #cc071e;
 $color-body: #353535;
 $body-font: Roboto, sans-serif;
 
+// $link: #000000;
+// $visit: #cc071e;
+// $hover: #cc071e;
+// $active: #000000;
 
-a {
-    color: $color-link;
+/*mixins*/
+@mixin link($link, $hover, $active) {
+  a {
     text-decoration:none;
+    color: $link;
+      &:hover {
+        color: $hover;
+        text-decoration:underline;
+      }
+      &:active {
+        color: $active;
+      }
+  }
 }
+
+$html-margin: 0px auto !default;
+$padding: 0px !default;
+$font-size: 62.5% !default;
+
+
+@include link(black, #cc071e,black);
+
 
 body {
     font-family: $body-font;
@@ -18,10 +40,7 @@ body {
     padding:0px;
 }
 
-#current {
-    color: $color-accent;
-    text-decoration:underline;
-}
+
 
 .detail-list {
   padding-left:20px;
@@ -334,7 +353,7 @@ nav li {
 }
 
 .review-date {
-    display:block;
+    display: block;
 
     }
 

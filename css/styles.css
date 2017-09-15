@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,400,500,700");
+/*variables*/
+/*mixins*/
 a {
-  color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    color: #cc071e;
+    text-decoration: underline; }
+  a:active {
+    color: black; }
 
 body {
   font-family: Roboto, sans-serif;
   font-size: 1.2em;
   margin: 0px;
   padding: 0px; }
-
-#current {
-  color: #cc071e;
-  text-decoration: underline; }
 
 .detail-list {
   padding-left: 20px; }
